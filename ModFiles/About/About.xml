@@ -1,0 +1,22 @@
+<ModMetaData>
+	<name>Mountain-Penetrating Scanner</name>
+	<author>kathanon</author>
+    <packageId>kathanon.MountainPenetratingScanner</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<description>Makes the ground-penetrating scanner reveal where there are thick or thin roof in non-revealed areas of the map (with the roof overlay).</description>
+	<url>https://github.com/kathanon/RimWorld-MountainPenetratingScanner</url>
+
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId> 
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+	</loadAfter>
+</ModMetaData>
